@@ -2,7 +2,7 @@ import {Button} from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
 import {FiMail} from "react-icons/fi";
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
           </Link>
           </div>
           <div className="flex-1 flex justify-end items-start">          
-            <img src="/Naveen_CCC.PNG" className="h-128 object-cover rounded-xl" />
+            <Image src="/Naveen_CCC.PNG" className="h-128 object-cover rounded-xl" width={300} height={500}/>
           </div>
       </div>
     </section>

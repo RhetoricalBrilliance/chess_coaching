@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
         </div>
 
         <div className="flex-1 flex items-start justify-end ml-6">
-         <img src="/Naveen_Yellowstone.PNG" className="h-128 w-full object-cover rounded-xl" />
+         <Image src="/Naveen_Yellowstone.PNG" className="h-128 w-full object-cover rounded-xl" width={500} height={300} />
         </div>
 
       </div> 
